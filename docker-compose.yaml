@@ -5,7 +5,7 @@ services:
     # ports:
      # - 3000:3000
   my-app:
-    image: 616120718676.dkr.ecr.ap-south-1.amazonaws.com/my-app:1.0.2
+    image: public.ecr.aws/h3q3v4s0/anasm-jsapp:1.0.0
     ports: 
      - 3000:3000
   mongodb:
